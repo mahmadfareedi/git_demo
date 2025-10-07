@@ -1,0 +1,17 @@
+
+# Example demo code showing basic functionality
+def calculate_sum(a, b):
+    """Calculate sum of two numbers"""
+    return a + b
+
+def greet(name):
+    """Return greeting message"""
+    return f"Hello {name}!"
+
+# Example usage
+if __name__ == "__main__":
+    result = calculate_sum(5, 3)
+    print(f"5 + 3 = {result}")
+    
+    message = greet("Amazon Q")
+    print(message)
